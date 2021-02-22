@@ -1,0 +1,42 @@
+15/02/2021
+Versão Beta: Site de Vendas - anúncios
+
+npx create-react-app nossa-vitrine
+cd nossa-vitrine
+yarn start
+
+
+npm install react-router-dom
+
+yarn install
+yarn start
+
+
+npm install react-bootstrap bootstrap
+
+
+React Router Dom
+1) Criar arquivo Routes.js
+2) Comando: npm install react-router-dom ou
+yarn react-router-dom
+
+
+
+BrowserRouter é um <Router> que usa a API do histórico de HTML5 (pushState, replaceState e o evento popstate) para manter a interface do usuário em sincronia com o URL.
+as Router é apenas um apelido para o BrowserRouter
+Utilizamos o Router para englobar tanto os links quanto as rotas
+
+
+
+
+Criar um component chamado Routes utilizando uma função
+BrowserRouter: Ele defini que estamos usando as rotas através de um browser
+
+Switch: permite apenas que uma única rota seja chamada ao mesmo tempo 
+
+
+Feito isso, devemos importar um cara chamado BrowserRouter, ele é um componente que irá ser responsável por informar pra nossa aplicação que a partir de onde ele é chamado teremos um roteamento de componentes, por conta disso ele irá ficar em volta tanto do <App /> quanto do <Sobre />. Com isso o código do nosso ./src/index.js fica assim:
+
+
+
+
